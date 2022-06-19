@@ -13,7 +13,11 @@
 		"limits.h": "c",
 		"ioctl.h": "c",
 		"fscrypt.h": "c",
-		"mount.h": "c"
+		"mount.h": "c",
+		"debugfs.h": "c",
+		"jiffies.h": "c",
+		"mutex.h": "c",
+		"string.h": "c"
 	},
 	"terminal.integrated.defaultProfile.linux": "bash",
 	"editor.formatOnSave": false,
