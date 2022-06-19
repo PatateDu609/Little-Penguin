@@ -1,0 +1,10 @@
+# bInterfaceClass == 03 => HID
+# bInterfaceProtocol == 01 => Keyboard
+# SUBSYSTEMS == "usb" => filter on usb devices
+# ACTION == "add" => filter on add events only
+
+ACTION=="add"												\
+, SUBSYSTEMS=="usb"											\
+, ATTR{bInterfaceClass}=="03"								\
+, ATTR{bInterfaceProtocol}=="01"							\
+, RUN+="/sbin/insmod /root/al_penguin/Assignment04/main.ko"

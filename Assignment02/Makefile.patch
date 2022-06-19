@@ -1,0 +1,23 @@
+From 1e57930e9f4083ad5854ab6eadffe790a8167fb4 Mon May 23 11:46:51 2022 -0700
+From Ghali Boucetta <gboucett@student.42.fr>
+Date: Tue May 24 16:35:53 2022 +0200
+Subject: [PATCH] Kernel Makefile: Adding '-thor_kernel' to EXTRAVERSION
+
+Adding '-thor_kernel' to the EXTRAVERSION variable in the kernel Makefile.
+
+Signed-off-by: Ghali Boucetta <gboucett@student.42.fr>
+---
+ Makefile |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 7d5b0bfe7960..bd1b347ec7f2 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 18
+ SUBLEVEL = 0
+-EXTRAVERSION =
++EXTRAVERSION = -thor_kernel
+ NAME = Superb Owl

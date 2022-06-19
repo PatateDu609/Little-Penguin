@@ -1,0 +1,14 @@
+[Sun Jun 19 15:14:53 2022 <    1.145916>] usb 2-2: new full-speed USB device number 11 using ohci-pci
+[Sun Jun 19 15:14:53 2022 <    0.488450>] usb 2-2: New USB device found, idVendor=1532, idProduct=021e, bcdDevice= 2.00
+[Sun Jun 19 15:14:53 2022 <    0.000006>] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Sun Jun 19 15:14:53 2022 <    0.000002>] usb 2-2: Product: Razer Ornata Chroma
+[Sun Jun 19 15:14:53 2022 <    0.000002>] usb 2-2: Manufacturer: Razer
+[Sun Jun 19 15:14:53 2022 <    0.021124>] input: Razer Razer Ornata Chroma as /devices/pci0000:00/0000:00:1f.4/usb2/2-2/2-2:1.0/0003:1532:021E.0018/input/input37
+[Sun Jun 19 15:14:53 2022 <    0.053094>] hid-generic 0003:1532:021E.0018: input,hidraw1: USB HID v1.11 Keyboard [Razer Razer Ornata Chroma] on usb-0000:00:1f.4-2/input0
+[Sun Jun 19 15:14:53 2022 <    0.011791>] input: Razer Razer Ornata Chroma Keyboard as /devices/pci0000:00/0000:00:1f.4/usb2/2-2/2-2:1.1/0003:1532:021E.0019/input/input38
+[Sun Jun 19 15:14:53 2022 <    0.054136>] input: Razer Razer Ornata Chroma as /devices/pci0000:00/0000:00:1f.4/usb2/2-2/2-2:1.1/0003:1532:021E.0019/input/input39
+[Sun Jun 19 15:14:53 2022 <    0.000167>] hid-generic 0003:1532:021E.0019: input,hidraw2: USB HID v1.11 Keyboard [Razer Razer Ornata Chroma] on usb-0000:00:1f.4-2/input1
+[Sun Jun 19 15:14:53 2022 <    0.018609>] input: Razer Razer Ornata Chroma as /devices/pci0000:00/0000:00:1f.4/usb2/2-2/2-2:1.2/0003:1532:021E.001A/input/input40
+[Sun Jun 19 15:14:53 2022 <    0.000209>] hid-generic 0003:1532:021E.001A: input,hidraw3: USB HID v1.11 Mouse [Razer Razer Ornata Chroma] on usb-0000:00:1f.4-2/input2
+[Sun Jun 19 15:14:53 2022 <    0.002325>] FROM ASSIGNMENT04 MODULE: USB keyboard inserted...
+[Sun Jun 19 15:14:56 2022 <    2.240833>] usb 2-2: USB disconnect, device number 11
