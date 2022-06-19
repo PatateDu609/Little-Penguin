@@ -2,8 +2,20 @@
 	"files.associations": {
 		"printk.h": "c",
 		"slab.h": "c",
-		"module.h": "c"
+		"module.h": "c",
+		"kernel.h": "c",
+		"fs.h": "c",
+		"init.h": "c",
+		"compiler.h": "c",
+		"miscdevice.h": "c",
+		"device.h": "c",
+		"types.h": "c",
+		"limits.h": "c",
+		"ioctl.h": "c",
+		"fscrypt.h": "c",
+		"mount.h": "c"
 	},
 	"terminal.integrated.defaultProfile.linux": "bash",
-	"editor.formatOnSave": false
+	"editor.formatOnSave": false,
+	"esbonio.sphinx.confDir": ""
 }

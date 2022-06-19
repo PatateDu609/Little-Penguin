@@ -32,12 +32,14 @@ static ssize_t misc_write(struct file *file, const char __user *buf, size_t coun
 {
 	char tmp[LOGIN_LEN];
 
-	if (count != LOGIN_LEN)
-		return -EINVAL;
-	if (copy_from_user(tmp, buf, LOGIN_LEN))
-		return -EFAULT;
-	if (memcmp(tmp, LOGIN, LOGIN_LEN))
-		return -EINVAL;
+	if (count != LOGIN_LEN) // Check if the user is trying to write the correct amount of bytes
+		return -EINVAL; // Invalid argument
+
+	if (copy_from_user(tmp, buf, LOGIN_LEN)) // Copy the user's data to the kernel
+		return -EFAULT; // Bad address
+
+	if (memcmp(tmp, LOGIN, LOGIN_LEN)) // Check if the user's data is correct
+		return -EINVAL; // Invalid argument
 	return LOGIN_LEN;
 }
 

@@ -3,14 +3,24 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/src/kernel-5.18/**"
+                "/usr/src/kernel-5.18/**",
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include",
+                "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
             "cppStandard": "c++14",
-            "intelliSenseMode": "linux-clang-x64"
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "path": [
+                    "/usr/include"
+                ]
+            },
+            "compilerArgs": [
+                "-nostdinc"
+            ],
+            "forcedInclude": []
         }
     ],
     "version": 4
